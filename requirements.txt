@@ -1,0 +1,41 @@
+# PyTorch with CUDA support
+# Uncomment the appropriate index URL for your CUDA version:
+# For CUDA 12.1: --index-url https://download.pytorch.org/whl/cu121
+# For CUDA 11.8: --index-url https://download.pytorch.org/whl/cu118
+# For CPU only: --index-url https://download.pytorch.org/whl/cpu
+
+# Token Reward System Simulation
+simpy>=4.1.1
+pydantic==2.6.1
+plotly==5.18.0
+streamlit==1.31.1
+pyvis==0.3.2
+networkx==3.2.1
+beem
+steem
+
+# Testing & Utilities
+pytest==7.4.3
+pytest-cov==4.1.0
+python-dotenv==1.0.0
+
+# Data Processing (Shared)
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+seaborn>=0.13.0
+
+# Sentiment Analysis - Transformers & Deep Learning
+datasets>=2.14.0
+langdetect>=1.0.9
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+transformers>=4.36.0
+scikit-learn>=1.3.2
+tqdm>=4.66.0
+joblib>=1.3.2
+nltk>=3.8.1
+textstat>=0.7.3
+sentence-transformers>=2.2.2
+xgboost>=2.0.0
